@@ -281,7 +281,9 @@ a:hover{
     margin-top: 0;
     background: #CBA135;
 }
-
+.arroba{
+    margin-left: 0%;
+}
 .active{
     padding: 10vh 20vw;
 
