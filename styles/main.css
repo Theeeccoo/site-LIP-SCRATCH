@@ -268,22 +268,20 @@ a:hover{
 /* Terceira tela - Início */
 .tela3{
     height: 100vh;
+    width: 100%;
+    text-align: center;
 }
 .tela3 h1{
     color: var(--onyx);
     display: block;
-    width: 90vw;
     font-weight: bolder;
     font-size: 7.7vw;
-    margin: 0 auto 15px auto;
 }
 .container{
     margin-top: 0;
     background: #CBA135;
 }
-.arroba{
-    margin-left: 20vw;
-}
+
 .active{
     padding: 10vh 20vw;
 
