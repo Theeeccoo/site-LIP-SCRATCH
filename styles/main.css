@@ -1,9 +1,12 @@
 /* ROOT */
 :root{
     --onyx: #39393A;
-    --iris: #7A89C2;
     --skabeloff: #297373;
     --skabeloff-claro: #368b8b;
+    --gold-crayola: #FF784F;
+    --purple-mountain-majesty: #8D80AD;
+    --purple-claro: #a498c2;
+
     --platinum: #E6E6E6;
     
 }
@@ -53,6 +56,7 @@ nav ul li a{
     text-transform: uppercase;
     padding: 7px 13px;
     border-radius: 3px;
+    text-decoration: none;
 }
 a:hover{
     background: var(--skabeloff-claro);
@@ -137,14 +141,15 @@ a:hover{
 
 /* Primeira tela - Início */
 .tela1{
-    height: calc(100vh - 28vh);
+    height: 72vh;
 }
 .tela1 h1{
     display: block;
-    width: 80vw;
+    width: 100%;
     font-weight: bolder;
     font-size: 7.7vw;
-    margin: 20vh auto .5% auto;
+    margin: 10% 0 .5% 0;
+    padding: 0 8%;
 }
 .tela1 p{
     width: 95vw;
@@ -177,7 +182,7 @@ a:hover{
 /* Segunda tela - Início */
 .tela2{
     height: 100vh;
-    background: var(--iris);
+    background: var(--platinum);
 }
 .tela2 h1{
     color: var(--onyx);
@@ -195,8 +200,8 @@ a:hover{
     border-radius: 2rem;
 }
 .aluno h4{
-    padding: 4vh 20vw 0;
-    font-size: 1.2vw;
+    padding: 1vw 18vw 0;
+    font-size: 1vw;
 }
 
 .teste{
@@ -207,16 +212,16 @@ a:hover{
     margin-bottom: 10px;
 }
 .aluno img{
-    margin: 0 2vw;
-    width: 7vw;
-    height: 7vw;
+    margin: 0 20px 2rem 8%;
+    width: 7rem;
+    height: 7rem;
     border-radius: 50%;
-    margin-bottom: 2vh;
 }
 .aluno p{
     margin-top: 20px;
     display: inline;
-    font-size: 1.2vw;
+    font-size: 1.2rem;
+    padding-right: 2%;
 }
 
 @media screen and (max-width: 1040px){
@@ -270,22 +275,24 @@ a:hover{
     height: 100vh;
     width: 100%;
     text-align: center;
+    background: var(--skabeloff);
 }
-.tela3 h1{
-    color: var(--onyx);
-    display: block;
-    font-weight: bolder;
-    font-size: 7.7vw;
-}
-.container{
-    margin-top: 0;
-    background: #CBA135;
-}
-.arroba{
-    margin-left: 0%;
-}
-.active{
-    padding: 10vh 20vw;
 
+.dentro{
+    margin: 5% 0;
+}
+.dentro iframe{
+    margin: 2% 0;
+}
+.dentro h4{
+    font-size: 2vw;
+    color: var(--onyx);
+}
+
+.carousel-item{
+    margin-top: 10%;
+    min-height: 700px;
+    background: var(--skabeloff-claro);
+    border-radius: 25px;
 }
 /* Terceira tela - Final */
